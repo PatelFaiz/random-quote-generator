@@ -194,6 +194,61 @@ button:hover{
     }
 }
 
+@media (max-width: 460px) {
+    .container{
+        width: 350px;
+        margin: auto;
+    }
+
+    .qt1{
+        font-size: 4em;
+        line-height: 7px;
+        margin-top: 30px;
+    }
+    
+    .qt2{
+        /* display: inline-block; */
+        font-size: 4em;
+        padding-top: 30px;
+        line-height: 7px;
+    }
+
+    #quote-display{
+        font-size: 1.3em;
+        display: inline;
+        color: #555;
+        padding-bottom: 13px;
+    }
+
+    h1{
+        font-size: 1.9em;
+    }
+
+    .quote-box{
+        border-left: rgb(25, 192, 204) solid 7px;
+        background: #f4f4f5;
+        padding: 20px 20px 20px 20px;
+    }
+
+    #quote-author{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+
+    button{
+        width: 200px;
+        /* height: 30px; */
+        font-size: 15px;
+        padding: 5px px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+}
+
+
 @media (max-width: 380px) {
     .container{
         width: 300px;
@@ -222,7 +277,7 @@ button:hover{
 
     h1{
         font-size: 1.4em;
-        margin-top: 15px;
+        margin-top: 45px;
     }
 
     .quote-box{
